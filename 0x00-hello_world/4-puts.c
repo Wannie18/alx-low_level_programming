@@ -1,6 +1,7 @@
 #include<stdio.h>
 /**
- * This the main function where execution starts
+ * main - This the main function where execution starts
+ * Return : 0 after printing to the screen
  */
 int main(void)
 {
