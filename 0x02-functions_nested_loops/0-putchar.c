@@ -1,4 +1,4 @@
-#include<stdio.h>
+#include "main.h"
 /**
  * main - This is where execution begins
  *
@@ -6,13 +6,13 @@
  */
 int main(void)
 {
-	char toPrint[9] = "_putchar\n";
-	int a = 0;
-
-	while (a < 9)
-	{
-		putchar(toPrint[a]);
-		a++;
-	}
+	_putchar('-');
+	_putchar('p');
+	_putchar('u');
+	_putchar('t');
+	_putchar('c');
+	_putchar('h');
+	_putchar('a');
+	_putchar('r');
 	return (0);
 }
