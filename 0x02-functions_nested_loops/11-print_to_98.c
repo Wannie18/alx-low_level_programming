@@ -1,9 +1,10 @@
 #include "main.h"
+#include <stdio.h>
 /**
  * print_to_98 - prints all numbers from n to 98
  * @n - the starting number
  */
-int print_to_98(int n)
+void  print_to_98(int n)
 {
 	if (n <= 98)
 	{
