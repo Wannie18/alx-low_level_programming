@@ -1,10 +1,10 @@
 #include "main.h"
 /**
- * print_diagonol - draws a diagnol line n long
+ * print_diagonal - draws a diagnol line n long
  *@n: length of line
  *
  */
-void print_diagonol(int n)
+void print_diagonal(int n)
 {
 	int i = 0;
 
@@ -15,9 +15,9 @@ void print_diagonol(int n)
 		while (i < n)
 		{
 			_putchar('\\');
+			_putchar('\n');
 			_putchar(' ');
 			i++;
 		}
-		_putchar('\n');
 	}
 }
