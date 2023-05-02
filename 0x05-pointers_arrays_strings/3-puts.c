@@ -1,7 +1,7 @@
 #include "main.h"
 /**
  * _puts - prints an array of charecters to the stout
- * @str - string to be printed
+ * @str:  string to be printed
  */
 void _puts(char *str)
 {
@@ -12,5 +12,5 @@ void _puts(char *str)
 		_putchar(str[i]);
 		i++;
 	}
-	_putchar('\n');	
+	_putchar('\n');
 }
