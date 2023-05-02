@@ -1,1 +1,1 @@
-This folder hold projects on debugging
+This file holds projects on pointers and data structures
