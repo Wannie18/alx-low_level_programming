@@ -5,9 +5,10 @@
  * @dest: ponter to be copied to
  * @src: pointer to copy from
  *
+ * Return: copied pointer
  */
 char * _strcpy(char *dest, char *src)
 {
-	*dest = *src;
-	return dest;
+	dest = src;
+	return (dest);
 }
