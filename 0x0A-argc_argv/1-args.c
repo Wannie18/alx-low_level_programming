@@ -6,8 +6,8 @@
  * @argv: hold the arguments in an array of pointers
  * Return: zero if successful
  */
-int main(__attribute__((unused)) int argc, char *argv[])
-{	
+int main(int argc, __attribute__((unused)) char *argv[])
+{
 	printf("%d \n", argc);
 	return (0);
 }
