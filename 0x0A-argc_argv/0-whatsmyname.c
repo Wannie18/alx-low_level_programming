@@ -1,4 +1,5 @@
 #include "main.h"
+#include <stdio.h>
 /**
  * main - prints the name of th program
  * @argc: holds the count of the arguments passed
@@ -7,6 +8,6 @@
  */
 int main(__attribute__((unused)) int argc, char *argv[])
 {
-	_putchar(argv[0]);
+	printf("%s \n", argv[0]);
 	return (0);
 }
