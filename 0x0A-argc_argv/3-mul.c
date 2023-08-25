@@ -23,6 +23,6 @@ int main(int argc, __attribute__((unused)) char *argv[])
 	else
 	{
 		printf("Error\n");
-		return(1);
+		return (1);
 	}
 }
