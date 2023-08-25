@@ -17,12 +17,11 @@ int main(int argc, __attribute__((unused)) char *argv[])
 		int result = num1 * num2;
 
 		printf("%d\n", result);
-		return (0);
-
 	}
 	else
 	{
 		printf("Error\n");
 		return (1);
 	}
+	return (0);
 }
