@@ -1,1 +1,1 @@
-Pointers to pointers and arrays
+Structures folder
